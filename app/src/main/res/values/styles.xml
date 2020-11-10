@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CardCustomFormat">
+        <item name="android:layout_margin">4dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+    <style name="TextPersonFormat" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">32sp</item>
+    </style>
+    <style name="TextEmployeeFormat" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">24sp</item>
+    </style>
+</resources>

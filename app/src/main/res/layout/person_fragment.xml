@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/picture_person"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:paddingTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_person"
+        style="@style/TextPersonFormat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/picture_person"
+        app:layout_constraintTop_toBottomOf="@+id/picture_person" />
+
+    <TextView
+        android:id="@+id/birthday_person"
+        style="@style/TextPersonFormat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/picture_person"
+        app:layout_constraintTop_toBottomOf="@+id/name_person" />
+
+    <TextView
+        android:id="@+id/age_person"
+        style="@style/TextPersonFormat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/picture_person"
+        app:layout_constraintTop_toBottomOf="@+id/birthday_person" />
+
+    <TextView
+        android:id="@+id/specialty_person"
+        style="@style/TextPersonFormat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/picture_person"
+        app:layout_constraintTop_toBottomOf="@+id/age_person" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
